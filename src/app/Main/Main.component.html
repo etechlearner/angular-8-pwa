@@ -1,0 +1,17 @@
+<div [dir]="isRtl" (scroll)="onScrollEvent($event)">
+	<app-splash-screen></app-splash-screen>
+	<app-header-one></app-header-one>
+   <!-- header close -->
+	<ng-container *ngIf="currentUrl=='/home'">
+	   <app-home-banner></app-home-banner>
+	   <!-- banner sec close -->
+	</ng-container>
+	<!-- <div class="rtl-layout"> <a href="javascript:void(0)" (click)="changeDirection()">RTL</a></div> -->
+    <!-- rtl Layout close  -->
+	<router-outlet (activate)="onActivate($event)"></router-outlet>
+	<ng-container *ngIf="currentUrl!='/signup'">
+		<app-footer-one></app-footer-one> 
+	</ng-container>
+   <!-- footer close-->
+</div>
+<!-- rtl wrap close -->

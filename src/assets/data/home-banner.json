@@ -1,0 +1,20 @@
+[
+	{
+		"backgroundImage" : "https://via.placeholder.com/1920x1280",
+		"title" : "We Discover, Design & Build Digital Experiences",
+      "btn" : "SEE OUR WORK",
+      "btnlink" : "/portfolio/portfolio-grid"
+	},
+	{
+		"backgroundImage" : "https://via.placeholder.com/1920x1280",
+		"title" : "We Are A Full Time Digital Service Provider.",
+		"btn" : "Contact Us",
+      "btnlink" : "/contact"
+	},
+	{
+		"backgroundImage" : "https://via.placeholder.com/1920x1280",
+		"title" : "We Create Relations Between Business And Customers.",
+		"btn" : "About Us",
+      "btnlink" : "/about-us/about"
+	}
+]

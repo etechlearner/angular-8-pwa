@@ -1,0 +1,86 @@
+{	
+	"serviceGrid" : [
+		{
+			"icon" : "fas fa-bullhorn",
+			"title" : "Creative Design",
+			"polygon_color" : "svg-primary",
+			"content" : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem standard."
+		},
+		{
+			"icon" : "fas fa-mobile-alt",
+			"title" : "Digital Marketing",
+			"polygon_color" : "svg-secondary",
+			"content" : "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium volup."
+		},
+		{
+			"icon" : "fab fa-nintendo-switch",
+			"title" : "Mobile Apps",
+			"polygon_color" : "svg-success",
+			"content" : "Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus facer."
+		},
+		{
+			"icon" : "fas fa-bullhorn",
+			"title" : "UI/UX Designing",
+			"polygon_color" : "svg-error",
+			"content" : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem standard."
+		},
+		{
+			"icon" : "fas fa-mobile-alt",
+			"title" : "Web Development",
+			"polygon_color" : "svg-primary",
+			"content" : "Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus facer."
+		},
+		{
+			"icon" : "fab fa-nintendo-switch",
+			"title" : "Digital Marketing",
+			"polygon_color" : "svg-secondary",
+			"content" : "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium volup."
+		}
+	],
+	"serviceSlider" : [
+		{
+			"backgroundImage" : "https://via.placeholder.com/700x500/fff",
+			"backgroundText" : "U",
+			"title" : "User Experience",
+			"content" : "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout making it look like readable English."
+		},
+		{
+			"backgroundImage" : "https://via.placeholder.com/700x500/fff",
+			"backgroundText" : "B",
+			"title" : "Design Websites",
+			"content" : "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout making it look like readable English."
+		},
+		{
+			"backgroundImage" : "https://via.placeholder.com/700x500/fff",
+			"backgroundText" : "D",
+			"title" : "Brand Designing",
+			"content" : "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout making it look like readable English."
+		},
+		{
+			"backgroundImage" : "https://via.placeholder.com/700x500/fff",
+			"backgroundText" : "N",
+			"title" : "Seo Optimization",
+			"content" : "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout making it look like readable English."
+		},
+		{
+			"backgroundImage" : "https://via.placeholder.com/700x500/fff",
+			"backgroundText" : "P",
+			"title" : "Creative Design",
+			"content" : "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout making it look like readable English."
+		}
+	],
+	"serviceFeatures" : [
+		"Purpose, Vision & Values",
+		"Responsive Websites",
+		"Brand Strategy",
+		"Custom Apps",
+		"Logos & Visual Identies",
+		"Intranets",
+		"Naming",
+		"Donation Tools",
+		"Web Designing",
+		"Seo Optimization",
+		"Copywriting",
+		"UX & Content Strateg"
+	]
+}

@@ -1,0 +1,26 @@
+[
+	{
+		"icons" : "fab fa-facebook-f",
+		"links" : "http://facebook.com"
+	},
+	{
+		"icons" : "fab fa-twitter",
+		"links" : "http://twitter.com"
+	},
+	{
+		"icons" : "fab fa-linkedin-in",
+		"links" : "http://linkedin.com"
+	},
+	{
+		"icons" : "fab fa-instagram",
+		"links" : "http://instagram.com"
+	},
+	{
+		"icons" : "fab fa-dribbble",
+		"links" : "https://dribbble.com/"
+	},
+	{
+		"icons" : "fab fa-behance",
+		"links" : "https://www.behance.net/"
+	}
+]

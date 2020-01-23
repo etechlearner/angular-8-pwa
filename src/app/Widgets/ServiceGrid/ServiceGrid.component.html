@@ -1,0 +1,36 @@
+<div class="row">
+   <div class="col-12 col-md-12 col-lg-5 col-xl-6 c-md-space-lg">
+      <div class="service-info">
+         <div class="sec-title mrgn-b-2">
+            <h2 class="title">Services</h2>
+         </div>
+         <div class="sec-content mrgn-b-2">
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting
+               industry. Lorem Ipsum has been the industry's standard dummy text ever since the
+               1500s,</p>
+            <p> Nullam elementum tincidunt massa, a pulvinar leo ultricies ut. Ut fringilla lectus tellusimp imperdiet molestie est volutpat at, sed viverra cursus nibh. At vero eos et accusamus et iusto odio dignissimos.</p>
+            <p>
+               Distracted by the readable content of a page when looking at its layout.
+            </p>   
+            <p> Nullam elementum tincidunt massa, a pulvinar leo ultricies ut. Ut fringilla lectus tellusimp imperdiet molestie est volutpat at, sed viverra cursus nibh.</p>
+         </div>
+      </div>
+      <!-- service info wrap -->
+      <div class="service-btn">
+         <a [routerLink]="['/pages/services']" class="btn btn-secondary-grad btn-click-effect">Learn More</a>
+      </div>
+      <!-- service btn -->
+   </div>
+   <div class="col-12 col-md-12 col-lg-7 col-xl-6">
+      <div class="services-grid-wrap text-center">
+         <div class="row">
+            <ng-container *ngFor ="let item of serviceItems; let i = index">
+               <div class="col-12 col-sm-6 grid-item-space" *ngIf="i<4">
+                  <app-service-item [serviceItem]="item"></app-service-item>
+               </div>
+            </ng-container>
+         </div>
+      </div>
+      <!-- services-grid-wrap close -->
+   </div>
+</div>

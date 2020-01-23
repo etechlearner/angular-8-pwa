@@ -1,0 +1,32 @@
+<app-banner pageTitle="Boust"></app-banner>
+<div class="content py-0">
+   <div class="search-page-wrap">
+      <app-search-v2 btnContent="Search"></app-search-v2>
+<br>
+      <div class="container">
+         <div class="boust-grid boust-section-space">
+
+            <div class="row">
+               <div class="col-12 col-sm-12 col-md-12 col-lg-12">
+                  <div class="row grid-wrap mb-4" *ngIf="boustGrid && (boustGrid).length > 0">
+                     <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 mb-5" *ngFor="let grid of boustGrid">
+                        <app-grid-boust [gridBoust]="grid"></app-grid-boust>
+
+                     </div>
+                  </div>
+                  <!-- row -->
+                  <div>
+                     <nav class="pagination-center" aria-label="Page navigation">
+                        <app-pagination [paginationItems]="paginationItems"></app-pagination>
+                     </nav>
+                  </div>
+               </div>
+            </div>
+            <!-- row -->
+         </div>
+         <!-- boust grid close -->
+      </div>   
+      <!-- search-ques wrap close -->
+   </div>
+   <!-- search page wrap close -->
+</div>                        
