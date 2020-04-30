@@ -30,7 +30,7 @@
     "core-js": "^2.6.4",
     "cors": "^2.8.5",
     "http-server": "^0.12.0",
-    "jquery": "^3.4.1",
+    "jquery": "^3.5.0",
     "magnific-popup": "^1.1.0",
     "ngx-slick-carousel": "^0.4.4",
     "node-sass": "^4.13.0",
