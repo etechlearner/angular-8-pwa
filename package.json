@@ -33,7 +33,7 @@
     "jquery": "^3.4.1",
     "magnific-popup": "^1.1.0",
     "ngx-slick-carousel": "^0.4.4",
-    "node-sass": "^4.13.0",
+    "node-sass": "^4.13.1",
     "popper.js": "^1.15.0",
     "rxjs": "^6.5.2",
     "rxjs-compat": "^6.5.2",
